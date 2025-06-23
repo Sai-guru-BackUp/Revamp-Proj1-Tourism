@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            poppins: ['Poppins', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-poppins">
+ <!-- this div decides where the content will be displayed -->
+  <div class="flex items-center justify-center">   
+    <div class="main-container">
+      <div class="bg-white py-8 rounded-t-xl text-center">
+        <h1 class="text-[28px]">Tourism</h1>
+        <p class="text-[12px]">Plan Your Trip</p>
+        <a href="favPlace.html">
+          <button class="bg-[#09C1EB] rounded-2xl px-5 py-2 text-[12px] text-white my-2">Get Started</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

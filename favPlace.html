@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Places</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            poppins: ['Poppins', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body>
+   <div class="font-poppins">
+  <main class="flex items-center justify-center min-h-screen">
+    <div class="bg-white p-6 rounded-xl w-[400px] h-[600px] shadow-md" 
+         style="background-image: url('https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/TOURISM-PROJECT/taj-mahal'); background-size: cover; background-position: center;">
+
+      <h1 class="text-white text-2xl font-bold mb-4 text-left">Favorite Places</h1>
+
+      <div class="space-y-4" id="card-container">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-xl flex items-center justify-between p-4 shadow">
+          <div>
+            <h2 class="text-blue-600 font-semibold">Ram Mandir</h2>
+            <p class="text-gray-500 text-sm">Beauty place</p>
+          </div>
+          <img src="https://ik.imagekit.io/dogzb6kgb/1.webp?updatedAt=1750682881247"
+               alt="place" class="w-20 h-16 object-cover rounded-md" />
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-xl flex items-center justify-between p-4 shadow">
+          <div>
+            <h2 class="text-blue-600 font-semibold">Tanjore Big Temple</h2>
+            <p class="text-gray-500 text-sm">Beauty place</p>
+          </div>
+          <img src="https://ik.imagekit.io/dogzb6kgb/images.jpeg?updatedAt=1750683069177"
+               alt="place" class="w-20 h-16 object-cover rounded-md" />
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-xl flex items-center justify-between p-4 shadow">
+          <div>
+            <h2 class="text-blue-600 font-semibold">Brindavan Gardens</h2>
+            <p class="text-gray-500 text-sm">Beauty place</p>
+          </div>
+          <img src="https://ik.imagekit.io/dogzb6kgb/61613359_e147732609_b.jpg?updatedAt=1750682578340"
+               alt="place" class="w-20 h-16 object-cover rounded-md" />
+        </div>
+      </div>
+
+      <!-- Back Btn -->
+      <a href="index.html">
+        <button class="mt-6 text-left bg-black text-white px-6 py-2 rounded-lg">Back</button>
+      </a>
+    </div>
+  </main>
+  </div>
+
+</body>
+</html>
